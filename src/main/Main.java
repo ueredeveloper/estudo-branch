@@ -3,9 +3,11 @@ package main;
 import java.util.ArrayList;
 import java.util.List;
 
-import course.Course;
+import models.Course;
+import models.Payment;
 import models.Student;
-import payment.Payment;
+
+/* git master com os branchs: course e payment */
 
 public class Main {
 

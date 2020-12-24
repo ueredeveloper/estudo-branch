@@ -1,8 +1,6 @@
-package course;
+package models;
 
 import java.util.List;
-
-import models.Student;
 
 public class Course {
 	

@@ -1,6 +1,4 @@
-package payment;
-
-import models.Student;
+package models;
 
 public class Payment {
 	
