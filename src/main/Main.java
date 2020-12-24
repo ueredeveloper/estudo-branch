@@ -5,6 +5,7 @@ import java.util.List;
 
 import course.Course;
 import models.Student;
+import payment.Payment;
 
 public class Main {
 
@@ -19,10 +20,14 @@ public class Main {
 		
 		Course cr = new Course("Matemática", listStudents );
 		
+		Payment pay = new Payment("3000" , st);
+		
 		
 		System.out.println(cr.getCourseName());
 		
 		listStudents.forEach( student -> { System.out.println(student.getName());});
+		
+		System.out.println("Pagamento: " + pay.getValue() + " do estudante: " + pay.getStudent().getName());
 
 
 	}
