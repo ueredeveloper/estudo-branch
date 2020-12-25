@@ -13,14 +13,14 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Student st = new Student("José", "Rua dos Pinheiros");
+		Student st = new Student("JosÃ© Eclipse", "Rua dos Pinheiros");
 
 		List<Student> listStudents = new ArrayList<>();
 		
 		listStudents.add(st);
 		
 		
-		Course cr = new Course("Matemática", listStudents );
+		Course cr = new Course("MatemÃ¡tica", listStudents );
 		
 		Payment pay = new Payment("3000" , st);
 		
