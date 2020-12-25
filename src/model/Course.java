@@ -1,27 +1,25 @@
 package model;
 
-import java.util.List;
-
 public class Course {
-  
-  String courseName;
- 
 
-  public String getCourseName() {
-    return courseName;
-  }
+	String name;
 
-  public void setCourseName(String courseName) {
-    this.courseName = courseName;
-  }
+	public Course(String name) {
+		super();
+		this.name = name;
+	}
 
-  
+	public String getName() {
+		return name;
+	}
 
-  public Course(String courseName) {
-    super();
-    this.courseName = courseName;
-  }
-  
-  
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Course [name=" + name + "]";
+	}
 
 }

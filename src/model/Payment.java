@@ -1,17 +1,18 @@
 package model;
 
 public class Payment {
-	
+
+	// attributes
 	String value;
 	
-	Student student;
-	
-	public Payment(String value, Student student) {
+	// constructor
+	public Payment(String value) {
 		super();
+
 		this.value = value;
-		this.student = student;
 	}
 
+	//getters and setters
 	public String getValue() {
 		return value;
 	}
@@ -19,17 +20,6 @@ public class Payment {
 	public void setValue(String value) {
 		this.value = value;
 	}
-	
-
-
-	public Student getStudent() {
-		return student;
-	}
-
-	public void setStudent(Student student) {
-		this.student = student;
-	}
-	
 	
 	
 
