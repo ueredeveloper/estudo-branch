@@ -1,3 +1,8 @@
-/bin/
+#decoder
+bin/
+gen/
+obj/
+libs/*/*.so
 *.class
-
+.decoder_run
+*.txt

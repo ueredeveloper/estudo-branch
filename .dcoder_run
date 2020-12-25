@@ -1,0 +1,37 @@
+#search all .java, put in .txt and compile
+##find -name "*.java" > sources.txt && javac -d bin @sources.txt
+# run .class in bin past
+##java -Xmx256m -Dfile.encoding=UTF-8 -cp bin main.Main
+
+
+#criar novo branch 
+#git checkout -b school
+
+
+#git branch 
+
+#git status 
+git add . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
