@@ -30,7 +30,10 @@ public class Main {
 		school.getCourses().forEach(couse -> System.out.println("Curso: " + course.getName()));
 
 		school.getStudents()
-				.forEach(st -> System.out.println("Aluno: " + st.getName() + ", Endereço: " + st.getAddress()));
+				.forEach(st -> System.out.println(
+						"Aluno: " + st.getName() 
+						+ ", Endereço: " + st.getAddress()
+						+ "\nPagamento: " + st.getPayment().getValue()));
 
 	}
 

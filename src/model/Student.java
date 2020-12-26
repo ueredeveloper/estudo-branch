@@ -40,4 +40,14 @@ public class Student {
 		this.address = address;
 	}
 
+	public Payment getPayment() {
+		return payment;
+	}
+
+	public void setPayment(Payment payment) {
+		this.payment = payment;
+	}
+	
+	
+
 }
