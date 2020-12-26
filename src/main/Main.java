@@ -5,7 +5,7 @@ import java.util.List;
 
 import model.*;
 
-/* git master com os branchs: course e payment */
+/* adicionei o branch school e o deletei depois */
 
 public class Main {
 
